@@ -1,0 +1,19 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.box1, .box2, .box3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.container {
+    border: 3px solid black;
+    background-color: greenyellow;
+    padding: 10px;
+    width: 350px;
+}
+.create, .reset {
+    margin-top: 10px;
+}
